@@ -1,0 +1,44 @@
+*{font-family: sans-serif; margin: 0; padding: 0;}
+html{height: 100%;}
+body{height: inherit;}
+.cls:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+a,a:visited,a:link,a:active,a:hover{ text-decoration: none; color: #000;}
+ul,li{list-style: none;}
+
+.mainCover{ position: relative; width: 100%; height: auto;}
+.mainLogo{ position: absolute; width: 40px; height: 40px; z-index: 10; background: url("../images/logo.png") center center no-repeat; background-size: 100%; right:10px; top:10px;}
+.mainCover img{width: 100%; height: auto;}
+.mainCover:after{ position: absolute; z-index: 10; left: 0; bottom: 0; width: 100%; height: 100%; content: ""; background: url("../images/coverMask.png") bottom center no-repeat; background-size: 100% auto;}
+.mainCategory{ width: 100%; box-sizing: border-box; padding:0 15px;}
+.mainCatUl{ display: flex;  justify-content: center; flex-wrap:wrap;}
+.mainCatUl li{ flex: 1; text-align: center;}
+.mainCatUl li .cat_icon{ display: block; margin: auto; width: 55px; height: 55px; border-radius: 50%; box-shadow: 0 3px 0 rgba(0,0,0,.1);}
+.mainCatUl li:nth-child(1) .cat_icon{background: #3273d7 url("../images/icon_main01.png") center center no-repeat; background-size: 38px auto;}
+.mainCatUl li:nth-child(2) .cat_icon{background: #569b62 url("../images/icon_main02.png") center center no-repeat; background-size: 40px auto;}
+.mainCatUl li:nth-child(3) .cat_icon{background: #b02d2d url("../images/icon_main03.png") center center no-repeat; background-size: 30px auto;}
+.mainCatUl li .cat_txt{ font-size: 16px; line-height: 16px; padding-top: 10px; display: block;}
+.mainLinks{ margin-top: 10px;}
+.mainLinks_title{ width: 100%; height: auto;}
+.mainLinks_title img{ width: 100%; height: auto;}
+.mainLinkUl{display: flex;  justify-content: flex-start; flex-wrap:wrap; padding:0 12px; }
+.mainLinkUl li{ width: 25%; text-align: center; margin-top: 30px;}
+.mainLinkUl li .cat_icon{ display: block; margin: auto; width: 55px; height: 55px; box-shadow: 0 3px 3px rgba(0,0,0,.1);}
+.mainLinkUl li.mainLink_01 .cat_icon{background: url("../images/main_icon_201.png") center center no-repeat; background-size: 100%;}
+.mainLinkUl li.mainLink_02 .cat_icon{background: url("../images/main_icon_202.png") center center no-repeat; background-size: 100%;}
+.mainLinkUl li.mainLink_03 .cat_icon{background: url("../images/main_icon_203.png") center center no-repeat; background-size: 100%;}
+.mainLinkUl li.mainLink_04 .cat_icon{background: url("../images/main_icon_204.png") center center no-repeat; background-size: 100%;}
+.mainLinkUl li.mainLink_05 .cat_icon{background: url("../images/main_icon_205.png") center center no-repeat; background-size: 100%;}
+.mainLinkUl li.mainLink_06 .cat_icon{background: url("../images/main_icon_206.png") center center no-repeat; background-size: 100%;}
+.mainLinkUl li .cat_txt{ font-size: 16px; line-height: 16px; padding-top: 10px; display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
